@@ -1,0 +1,54 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000000;
+  color: #FFFFFF;
+  position: sticky;
+  top:0;
+}
+.nav .nav-logo h3 span{
+  color: yellowgreen;
+  font-weight: bold;
+}
+.nav .nav-menu button{
+  padding:10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.loading .row{
+  height:90vh;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.profile{
+    border: 2px solid #ffa6ff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
+    text-align: center;
+    border-radius: 18px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.profile img{
+  border-radius: 50%;
+}
+.profile .user_info{
+  padding-top: 10px;
+}
+.profile .user_info h3{
+  font-size: 22px;
+  font-weight: bold;
+}
+.profile .user_info p{
+  font-size: 16px;
+  font-weight: bold;
+}
